@@ -6,13 +6,13 @@ source.dir = .
 source.include_exts = py,png,jpg,jpeg,ttf,otf,wav,ogg,json,csv,txt
 version = 0.1
 
-# Use standard pygame with python3
-requirements = python3,pygame
+# pygame-ce has updated Android SDL2 recipes
+requirements = python3,pygame-ce
 
 orientation = landscape
 fullscreen = 1
 
-# Target modern 64-bit Android architecture only
+# Modern 64-bit target
 android.archs = arm64-v8a
 
 android.allow_backup = True
@@ -20,7 +20,8 @@ android.api = 33
 android.minapi = 21
 android.ndk = 25b
 android.accept_sdk_license = True
-p4a.branch = master
+android.bootstrap = sdl2
+p4a.branch = develop
 
 [buildozer]
 log_level = 2
