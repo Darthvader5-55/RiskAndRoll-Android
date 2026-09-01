@@ -6,8 +6,8 @@ source.dir = .
 source.include_exts = py,png,jpg,jpeg,ttf,otf,wav,ogg,json,csv,txt
 version = 0.1
 
-# Use the native p4a C recipe
-requirements = python3,pygame
+# Includes python3, kivy (for the mobile display wrapper), and your game dependencies
+requirements = python3,kivy
 
 orientation = landscape
 fullscreen = 1
@@ -18,7 +18,6 @@ android.api = 33
 android.minapi = 21
 android.ndk = 25b
 android.accept_sdk_license = True
-android.bootstrap = sdl2
 p4a.branch = master
 
 [buildozer]
