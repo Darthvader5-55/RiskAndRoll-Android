@@ -5,10 +5,16 @@ package.domain = org.darthvader
 source.dir = .
 source.include_exts = py,png,jpg,jpeg,ttf,otf,wav,ogg,json,csv,txt
 version = 0.1
-requirements = python3,pygame-ce
+
+# Use standard pygame with python3
+requirements = python3,pygame
+
 orientation = landscape
 fullscreen = 1
-android.archs = arm64-v8a, armeabi-v7a
+
+# Target modern 64-bit Android architecture only
+android.archs = arm64-v8a
+
 android.allow_backup = True
 android.api = 33
 android.minapi = 21
