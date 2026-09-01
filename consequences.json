@@ -1,0 +1,74 @@
+{
+  "_comment": "Five difficulty levels. Edit freely - this is plain text. 'enabled' is the starting state; the booth operator can also switch levels on and off from the game screen. Keep everything safe and appropriate for a school event.",
+  "categories": {
+    "WARM UP": {
+      "level": 1,
+      "enabled": true,
+      "items": [
+        "Give someone here a compliment",
+        "Strike a funny pose for 5 seconds",
+        "Say your full name backwards",
+        "Do your best robot walk across the booth",
+        "High-five three different people",
+        "Introduce yourself like a game show host",
+        "Say a tongue twister three times",
+        "Balance on one foot for 10 seconds"
+      ]
+    },
+    "EASY": {
+      "level": 2,
+      "enabled": true,
+      "items": [
+        "Do 5 squats",
+        "Do 5 jumping jacks",
+        "Do 10 arm circles each direction",
+        "Hold a plank for 10 seconds",
+        "Do 5 calf raises",
+        "March in place for 15 seconds",
+        "Touch your toes 5 times"
+      ]
+    },
+    "FUNNY": {
+      "level": 3,
+      "enabled": true,
+      "items": [
+        "Dance for 10 seconds",
+        "Act like a chicken for 5 seconds",
+        "Sing one line of any song",
+        "Do your best villain laugh",
+        "Do an exaggerated victory pose",
+        "Talk like a news reporter for 10 seconds",
+        "Pretend to be a statue for 10 seconds",
+        "Do a slow-motion celebration",
+        "Do your best impression of your favourite teacher"
+      ]
+    },
+    "HARD": {
+      "level": 4,
+      "enabled": true,
+      "items": [
+        "Do 10 squats",
+        "Do 10 jumping jacks",
+        "Do 5 push-ups",
+        "Hold a plank for 20 seconds",
+        "Hold a wall-sit for 20 seconds",
+        "Do 10 lunges, 5 each leg",
+        "Do 15 high knees"
+      ]
+    },
+    "EXTREME": {
+      "level": 5,
+      "enabled": true,
+      "items": [
+        "Do 20 squats",
+        "Do 20 jumping jacks",
+        "Do 10 push-ups",
+        "Hold a plank for 30 seconds",
+        "Hold a wall-sit for 30 seconds",
+        "Do 30 high knees",
+        "Do 15 lunges, then a victory dance",
+        "Do 10 burpees at your own pace"
+      ]
+    }
+  }
+}
